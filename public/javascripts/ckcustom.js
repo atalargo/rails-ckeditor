@@ -33,7 +33,7 @@ CKEDITOR.editorConfig = function( config )
         ['Cut','Copy','Paste','PasteText','PasteFromWord',],
         ['Maximize','-','About'],
         ['Undo','Redo','-','Find','Replace','-','SelectAll','RemoveFormat'],
-        ['Styles','Format'],
+        ['Styles','Format'], '/',
         ['Bold','Italic','Underline','Strike','-','Subscript','Superscript', 'TextColor'],
         ['NumberedList','BulletedList','-','Outdent','Indent','Blockquote'],
         ['JustifyLeft','JustifyCenter','JustifyRight','JustifyBlock'],
