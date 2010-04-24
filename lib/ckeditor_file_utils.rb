@@ -48,7 +48,7 @@ module CkeditorFileUtils
     
     FileUtils.cp(config_file, dest) unless File.exist?(dest)
     
-    unless RUBY_PLATFORM =~ /mswin32/
+    unless RUBY_PLATFORM =~ /mswin32|mingw32/
       if File.exist?(config_symlink)
         unless File.symlink?(config_symlink)
           FileUtils.rm(backup_config) if File.exist?(backup_config)
