@@ -71,7 +71,7 @@ module Ckeditor
 		   end
       if options[:ajax]
         inputs = "<input type='hidden' id='#{id}_hidden' name='#{name_tag}'>\n" <<
-                 "<textarea id='#{id}' #{cols} #{rows} name='#{id}'>#{value}</textarea>\n"
+                 "<textarea id='#{id}' #{cols} #{rows} name='#{id}' #{classy}>#{value}</textarea>\n"
       else
         inputs = "<textarea id='#{id}' style='width:#{width};height:#{height}' #{cols} #{rows} #{classy} name='#{name_tag}'>#{h value}</textarea>\n"
       end
