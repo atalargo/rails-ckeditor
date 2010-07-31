@@ -9,6 +9,8 @@ This is the ideal editor for developers, created to provide easy and powerful so
 http://ckeditor.com/
 http://swfupload.org/
 
+This fork is modified version that give possibility to pass id and name option for textarea and input generate by the view helper. 
+
 h2. Install
 
 @./script/plugin install git://github.com/standout/rails-ckeditor.git@
